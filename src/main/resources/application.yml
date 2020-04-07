@@ -23,4 +23,4 @@ spring:
             service:
                 name: kafka
          jaas:
-            config:  com.sun.security.auth.module.Krb5LoginModule required refreshKrb5Config=true useKeyTab=true keyTab="/data/tab/client.keytab" storeKey=true principal="client";
+            config:  com.sun.security.auth.module.Krb5LoginModule required refreshKrb5Config=true useKeyTab=true keyTab="/data/keys/client.keytab" storeKey=true principal="client";
